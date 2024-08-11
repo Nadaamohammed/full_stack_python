@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5dbbc; 
+}
+.logo{
+    width:250px;
+    height:220px;
+}
+.header{
+    background-color: #eef6cb; 
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+   
+}
+footer{
+    background-color: #eef6cb; 
+    color:white;
+    text-align: center;
+    padding: 10px 0; 
+}
+.log-button{
+    width:20px;
+    height:20px; 
+}
+.navi{
+    background-color: #eef6cb; 
+    text-align: center;
+    padding: 10px;
+}
+.navi.a{
+    color:blue;
+    margin: 0 15px;
+}
+
+.top{
+    width:80;
+    height: 80;
+    text-align:right; 
+    margin-top:20px;
+    background-color: #eef6cb; 
+
+}
+p{
+    text-align: center;
+    background-color: #eef6cb; 
+   
+}
+.news{
+    text-align: start;
+    font-size: large;
+}
+ td{  
+    border: 2px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    padding: 10px;
+  }
+
+.left{
+    width: 20%;
+    background-color: #f0f0f0;
+}
+.center {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.right {
+    width: 20%;
+    background-color: #f0f0f0;
+}
+.login, .online, .iframe_video, .photo, .news {
+    margin-bottom: 20px;
+}

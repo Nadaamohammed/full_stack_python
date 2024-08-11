@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p , div , span {
+    font-family: Lucida Calligraphy;
+}
+div > h1 {
+    text-align: center;
+}
+.none-bullet-list {
+    list-style: none;
+}
+#sit-menu > ul > li > a {
+    color: red;
+    background-color: pink;
+    text-decoration: none;
+}
+#sit-menu > ul > li > a:hover {
+    color: pink;
+    background-color: red;
+}
+#content h2 + p {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+#loginform {
+    border: 2px dashed rgb(20,70,60);
+}
+input[type="text"] {
+    background-color: yellow;
+}
+input[type="text"]:focus {
+    background-color: white;
+}
+.tabled-bordered {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+}
+span > p::after {
+    content: "Read this";
+    color: yellow;
+}
+#aboutus {
+    color: red;
+}
+/*
+#content > #aboutus {
+    color: yellow;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../style/reg.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form  method="post" enctype="multipart/form-data">
+            <label for="first-name">First Name (Required):</label>
+            <input type="text" id="first-name" name="first-name" required>
+            
+            <label for="last-name">Last Name (Required):</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email (Required):</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="password">Repeat Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="birth">Date Of Birth:</label>
+            <input type="date" id="birth" name="dateofbrith" required>
+
+            <label for="file">User Picture:</label>
+            <input type="file" id="file" name="file" required>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </fieldset>
+
+            <label for="faculty">Faculty</label>
+            <select id="faculty" name="faculty">
+                <option value="FCIH">FCIH</option>
+                <option value="FCIAH">FCIAH</option>
+                <option value="FCAIA">FCAIA</option>
+            </select>
+
+            <fieldset>
+                <legend>Interests</legend>
+                <input type="checkbox" id="programming" name="interests" value="programming">
+                <label for="programming">Programming</label><br>
+                <input type="checkbox" id="reading" name="interests" value="reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="swimming" name="interests" value="swimming">
+                <label for="swimming">Swimming</label>
+            </fieldset>
+
+            <label for="text-area">About you:</label>
+            <textarea id="text" name="about" rows="5" cols="10"></textarea>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to terms and conditions</label><br>
+
+            <div class="buttons">
+                <a src="thanku.html"><input type="submit" value="Submit"></a>
+                
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    
+
+</body>
+</html>
